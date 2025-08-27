@@ -8,6 +8,12 @@ export default function Index() {
   <Text style={styles.largeText}>Typescript is great if you practice more</Text>
   <Text style={styles.mediumText}>React Native provides you a single codebase for cross platforms</Text>
   <Text style={styles.smallText}>ALX is awesome</Text>
+
+  
+      {/* ✅ Three extra text components */}
+      <Text style={styles.boldText}>Learning never stops</Text>
+      <Text style={styles.italicText}>Practice makes perfect</Text>
+      <Text style={styles.underlineText}>Consistency is key</Text>
 </View>
     
   );
@@ -36,5 +42,20 @@ const styles = StyleSheet.create({
     color: "#2196f3",
     fontWeight: "400",
     textAlign: "center",
+  },
+   boldText: {
+    fontSize: 18,
+    color: "#4caf50",
+    fontWeight: "bold",
+  },
+  italicText: {
+    fontSize: 16,
+    color: "#ff9800",
+    fontStyle: "italic",
+  },
+  underlineText: {
+    fontSize: 14,
+    color: "#3f51b5",
+    textDecorationLine: "underline",
   },
 });
