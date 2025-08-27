@@ -10,10 +10,12 @@ export default function Index() {
   <Text style={styles.smallText}>ALX is awesome</Text>
 
   
-      {/* ✅ Three extra text components */}
+     <View style={styles.container} >
       <Text style={styles.boldText}>Learning never stops</Text>
       <Text style={styles.italicText}>Practice makes perfect</Text>
       <Text style={styles.underlineText}>Consistency is key</Text>
+     </View>
+      
 </View>
     
   );
